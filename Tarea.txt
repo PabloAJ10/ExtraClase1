@@ -1,0 +1,40 @@
+
+* Hecho Por: José Pablo Amador.
+* Git clone:
+ Se usa para copiar un repositorio. Si el repositorio está en un servidor remoto, usa:
+git clone nombredeusuario@host:/path/to/repository
+
+
+* Git commit:
+ Creará una instantánea de los cambios y la guardará en el directorio git.
+git commit –m “El mensaje que acompaña al commit va aquí”
+
+
+* Git push:
+ Se usa para enviar confirmaciones locales a la rama maestra del repositorio remoto. Aquí está la estructura básica del código:
+git push  origin <master>
+
+
+* git pull:
+Fusiona todos los cambios que se han hecho en el repositorio remoto con el directorio de trabajo local.
+
+
+* Git checkout:
+Este es también uno de los comandos más utilizados en Git. Para trabajar en una rama, primero tienes que cambiarte a ella. Usaremos git checkout principalmente para cambiarte de una rama a otra. También lo podemos usar para chequear archivos y commits.
+
+* Git status:
+El comando de git status nos da toda la información necesaria sobre la rama actual.
+
+
+* Git merge:
+
+Cuando ya hayas completado el desarrollo de tu proyecto en tu rama y todo funcione correctamente, el último paso es fusionar la rama con su rama padre (dev o master). Esto se hace con el comando git merge.
+Git merge básicamente integra las características de tu rama con todos los commits realizados a las ramas dev (o master).  Es importante que recuerdes que tienes que estar en esa rama específica que quieres fusionar  con tu rama de características.
+
+* Git revert:
+
+A veces, necesitaremos deshacer los cambios que hemos hecho. Hay varias maneras para deshacer nuestros cambios en local y/o en remoto (dependiendo de lo que necesitemos), pero necesitaremos utilizar cuidadosamente estos comandos para evitar borrados no deseados.
+
+
+
+
